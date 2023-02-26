@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		.first {
+            /* add CSS here */		
+            width:100px
+    	}
+    	.second {
+            /* add CSS here */		
+            height:200px
+    	}
+    	.third {
+            /* add CSS here */		
+            margin:1em
+    	}
+    	.fourth {
+            /* add CSS here */    	
+            font-size:2em	
+    	}
+    	.udacity-text {
+            /* add CSS here */
+            font-style:Helvetica, Arial, sans-serif;
+            color:#8001ff;
+            text-decoration: underline;
+    	}
+
+    	.kitten-image {
+            /* add CSS here */
+            border:medium dashed #fa8072;
+            box-shadow:10px 5px 5px grey;
+            cursor:pointer;
+    	}
+		/* missing id */
+      #menu{
+      text-align: center;
+    }
+
+    /* missing class */
+      .item{
+      color: red;
+    }
+
+    /* missing class */
+      .picture{
+      border-radius: 5px;
+    }
+
+    /* missing class */
+      .description{
+      font-style: italic;
+    }
+
+     body {
+            font-family: Arial; 
+        }
+        #to-do-list {
+            width: 400px;
+            background: #2e3d49;
+            padding: 10px 20px;
+        }
+        .title {
+            color: #fff;
+        }
+        .underline {
+            text-decoration: underline;
+        } 
+        .list {
+            list-style-type: circle;
+            text-align: left;
+            font-size: 16px;
+            color: #1fba58;
+            line-height: 24px;
+        }
+        .finished {
+            color: #f4442f;
+            text-decoration: line-through;
+        }
+	</style>
+</head>
+<body>
+	<h1 class="udacity-text">udacity</h1>
+
+	<img src="http://udacity.github.io/fend/lessons/L3/problem-set/02-style-an-image/kitten.jpg" alt="kitten" class="kitten-image">
+
+
+	<div id="menu">
+    <h1 class="item">Chicken Clay Pot</h1>
+    <img src="img/clay-pot.jpg" alt="clay pot" class="picture">
+    <p class="description">Crispy rice baked in clay pot topped with chicken and vegetables</p>
+  </div>
+
+  <div>
+		<h1>My To-Do List</h1>
+		<h2>Chores</h2>
+		<ul class="list">
+			<li>load the diswasher</li>
+			<li>vacuum living room</li>
+			<li>take out garbage</li>
+			<li class="finished">sweep the garage</li>
+		</ul>
+		<h2>Homework</h2>
+		<ul class="list">
+			<li class="finished">brainstorm ideas for Science project</li>
+			<li class="finished">finish Calculus 2 problems</li>
+			<li>study for Programming midterm :P</li>
+            <li>finish Project 0 on Udacity FEND</li>
+			<li class="finished">find sources for Biology research paper</li>
+			<li>read first two chapters of The Art of War</li>
+		</ul>
+        <h2>Party</h2>
+        <ul class="list">
+            <li class="finished">send out invitations</li>
+            <li>reserve party room at restaurant</li>
+            <li>order the cake!</li>
+        </ul>
+	</div>
+</body>
+</html>
